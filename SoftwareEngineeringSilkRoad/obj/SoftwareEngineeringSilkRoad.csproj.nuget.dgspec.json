@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\auzma\\source\\repos\\SoftwareEngineeringSilkRoad\\SoftwareEngineeringSilkRoad\\SoftwareEngineeringSilkRoad.csproj": {}
+    "C:\\Users\\gilli\\Documents\\GitHub\\540group1projectfall2020\\SoftwareEngineeringSilkRoad\\SoftwareEngineeringSilkRoad.csproj": {}
   },
   "projects": {
-    "C:\\Users\\auzma\\source\\repos\\SoftwareEngineeringSilkRoad\\SoftwareEngineeringSilkRoad\\SoftwareEngineeringSilkRoad.csproj": {
+    "C:\\Users\\gilli\\Documents\\GitHub\\540group1projectfall2020\\SoftwareEngineeringSilkRoad\\SoftwareEngineeringSilkRoad.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\auzma\\source\\repos\\SoftwareEngineeringSilkRoad\\SoftwareEngineeringSilkRoad\\SoftwareEngineeringSilkRoad.csproj",
+        "projectUniqueName": "C:\\Users\\gilli\\Documents\\GitHub\\540group1projectfall2020\\SoftwareEngineeringSilkRoad\\SoftwareEngineeringSilkRoad.csproj",
         "projectName": "SoftwareEngineeringSilkRoad",
-        "projectPath": "C:\\Users\\auzma\\source\\repos\\SoftwareEngineeringSilkRoad\\SoftwareEngineeringSilkRoad\\SoftwareEngineeringSilkRoad.csproj",
-        "packagesPath": "C:\\Users\\auzma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\auzma\\source\\repos\\SoftwareEngineeringSilkRoad\\SoftwareEngineeringSilkRoad\\obj\\",
+        "projectPath": "C:\\Users\\gilli\\Documents\\GitHub\\540group1projectfall2020\\SoftwareEngineeringSilkRoad\\SoftwareEngineeringSilkRoad.csproj",
+        "packagesPath": "C:\\Users\\gilli\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\gilli\\Documents\\GitHub\\540group1projectfall2020\\SoftwareEngineeringSilkRoad\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\auzma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\gilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

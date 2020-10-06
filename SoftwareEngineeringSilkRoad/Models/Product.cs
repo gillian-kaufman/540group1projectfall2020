@@ -22,5 +22,8 @@ namespace SoftwareEngineeringSilkRoad.Models
         public string ImagePath { get; set; }
 
         public bool FreeShipping { get; set; }
+
+        //Foreign Keys
+        public virtual Category Category { get; set; }
     }
 }

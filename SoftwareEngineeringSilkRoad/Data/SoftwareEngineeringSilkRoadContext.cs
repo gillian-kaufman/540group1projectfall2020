@@ -23,5 +23,7 @@ namespace SoftwareEngineeringSilkRoad.Data
         public DbSet<SoftwareEngineeringSilkRoad.Models.ProductReview> ProductReview { get; set; }
 
         public DbSet<SoftwareEngineeringSilkRoad.Models.WishList> WishList { get; set; }
+
+        public DbSet<SoftwareEngineeringSilkRoad.Models.Category> Category { get; set; }
     }
 }
