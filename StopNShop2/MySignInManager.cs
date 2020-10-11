@@ -25,6 +25,8 @@ namespace StopNShop2
         {
         }
 
+        // Override sign in to find user by Email instead of Username
+
         public override async Task<SignInResult> PasswordSignInAsync(string userName, string password,
             bool isPersistent, bool lockoutOnFailure)
         {
