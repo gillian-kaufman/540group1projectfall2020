@@ -492,3 +492,14 @@ C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\static
 C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\StopNShop2.dll
 C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\StopNShop2.pdb
 C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\StopNShop2.genruntimeconfig.cache
+C:\Users\madampresident\Source\Repos\gillian-kaufman\540group1projectfall2020\StopNShop2\obj\Debug\netcoreapp3.1\StopNShop2.csprojAssemblyReference.cache
+C:\Users\madampresident\Source\Repos\gillian-kaufman\540group1projectfall2020\StopNShop2\obj\Debug\netcoreapp3.1\StopNShop2.AssemblyInfoInputs.cache
+C:\Users\madampresident\Source\Repos\gillian-kaufman\540group1projectfall2020\StopNShop2\obj\Debug\netcoreapp3.1\StopNShop2.AssemblyInfo.cs
+C:\Users\madampresident\Source\Repos\gillian-kaufman\540group1projectfall2020\StopNShop2\obj\Debug\netcoreapp3.1\StopNShop2.csproj.CoreCompileInputs.cache
+C:\Users\madampresident\Source\Repos\gillian-kaufman\540group1projectfall2020\StopNShop2\obj\Debug\netcoreapp3.1\StopNShop2.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\madampresident\Source\Repos\gillian-kaufman\540group1projectfall2020\StopNShop2\obj\Debug\netcoreapp3.1\StopNShop2.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\madampresident\Source\Repos\gillian-kaufman\540group1projectfall2020\StopNShop2\obj\Debug\netcoreapp3.1\StopNShop2.RazorAssemblyInfo.cache
+C:\Users\madampresident\Source\Repos\gillian-kaufman\540group1projectfall2020\StopNShop2\obj\Debug\netcoreapp3.1\StopNShop2.RazorAssemblyInfo.cs
+C:\Users\madampresident\Source\Repos\gillian-kaufman\540group1projectfall2020\StopNShop2\obj\Debug\netcoreapp3.1\StopNShop2.dll
+C:\Users\madampresident\Source\Repos\gillian-kaufman\540group1projectfall2020\StopNShop2\obj\Debug\netcoreapp3.1\StopNShop2.pdb
+C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\StopNShop2.csprojAssemblyReference.cache
