@@ -22,7 +22,8 @@ namespace StopNShop2.Controllers
         // GET: Products
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Product.ToListAsync());
+            var applicationDbContext = _context.Product.Include(p => p.Category);
+            return View(await applicationDbContext.ToListAsync());
         }
 
         // GET: Products/Details/5
@@ -34,6 +35,7 @@ namespace StopNShop2.Controllers
             }
 
             var product = await _context.Product
+                .Include(p => p.Category)
                 .FirstOrDefaultAsync(m => m.ProductId == id);
             if (product == null)
             {
@@ -46,6 +48,7 @@ namespace StopNShop2.Controllers
         // GET: Products/Create
         public IActionResult Create()
         {
+            ViewData["CategoryFK"] = new SelectList(_context.Category, "CategoryID", "CategoryID");
             return View();
         }
 
@@ -54,7 +57,7 @@ namespace StopNShop2.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ProductId,Title,Price,PreviousPrice,Rating,ImagePath,FreeShipping")] Product product)
+        public async Task<IActionResult> Create([Bind("ProductId,Title,Price,PreviousPrice,Rating,ImagePath,FreeShipping,CategoryFK")] Product product)
         {
             if (ModelState.IsValid)
             {
@@ -62,6 +65,7 @@ namespace StopNShop2.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CategoryFK"] = new SelectList(_context.Category, "CategoryID", "CategoryID", product.CategoryFK);
             return View(product);
         }
 
@@ -78,6 +82,7 @@ namespace StopNShop2.Controllers
             {
                 return NotFound();
             }
+            ViewData["CategoryFK"] = new SelectList(_context.Category, "CategoryID", "CategoryID", product.CategoryFK);
             return View(product);
         }
 
@@ -86,7 +91,7 @@ namespace StopNShop2.Controllers
         // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ProductId,Title,Price,PreviousPrice,Rating,ImagePath,FreeShipping")] Product product)
+        public async Task<IActionResult> Edit(int id, [Bind("ProductId,Title,Price,PreviousPrice,Rating,ImagePath,FreeShipping,CategoryFK")] Product product)
         {
             if (id != product.ProductId)
             {
@@ -113,6 +118,7 @@ namespace StopNShop2.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
+            ViewData["CategoryFK"] = new SelectList(_context.Category, "CategoryID", "CategoryID", product.CategoryFK);
             return View(product);
         }
 
@@ -125,6 +131,7 @@ namespace StopNShop2.Controllers
             }
 
             var product = await _context.Product
+                .Include(p => p.Category)
                 .FirstOrDefaultAsync(m => m.ProductId == id);
             if (product == null)
             {
