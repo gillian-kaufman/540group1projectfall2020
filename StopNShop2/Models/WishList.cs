@@ -12,7 +12,7 @@ namespace StopNShop2.Models
         [Key]
         public int WishListID { get; set; }
 
-        public virtual Customer Customer { get; set; }
+        public virtual ApplicationUser ApplicationUser { get; set; }
 
         public virtual Product Product { get; set; }
     }
