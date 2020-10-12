@@ -192,11 +192,6 @@ C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\Razor\
 C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Details.cshtml.g.cs
 C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Edit.cshtml.g.cs
 C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\Razor\Views\Customers\Index.cshtml.g.cs
-C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\Razor\Views\Products\Create.cshtml.g.cs
-C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\Razor\Views\Products\Delete.cshtml.g.cs
-C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
-C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
-C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs
 C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\Razor\Views\ProductReviews\Create.cshtml.g.cs
 C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\Razor\Views\ProductReviews\Delete.cshtml.g.cs
 C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\Razor\Views\ProductReviews\Details.cshtml.g.cs
@@ -498,3 +493,8 @@ C:\Users\gilli\Documents\GitHub\540group1projectfall2020\StopNShop2\obj\Debug\ne
 C:\Users\gilli\Documents\GitHub\540group1projectfall2020\StopNShop2\obj\Debug\netcoreapp3.1\StopNShop2.dll
 C:\Users\gilli\Documents\GitHub\540group1projectfall2020\StopNShop2\obj\Debug\netcoreapp3.1\StopNShop2.pdb
 C:\Users\gilli\Documents\GitHub\540group1projectfall2020\StopNShop2\obj\Debug\netcoreapp3.1\StopNShop2.genruntimeconfig.cache
+C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\Razor\Views\Products\Create.cshtml.g.cs
+C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\Razor\Views\Products\Delete.cshtml.g.cs
+C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\Razor\Views\Products\Details.cshtml.g.cs
+C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\Razor\Views\Products\Edit.cshtml.g.cs
+C:\Users\auzma\source\repos\StopNShop2\StopNShop2\obj\Debug\netcoreapp3.1\Razor\Views\Products\Index.cshtml.g.cs

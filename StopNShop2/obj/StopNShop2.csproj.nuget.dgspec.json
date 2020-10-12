@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gilli\\Documents\\GitHub\\540group1projectfall2020\\StopNShop2\\StopNShop2.csproj": {}
+    "C:\\Users\\auzma\\source\\repos\\StopNShop2\\StopNShop2\\StopNShop2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gilli\\Documents\\GitHub\\540group1projectfall2020\\StopNShop2\\StopNShop2.csproj": {
+    "C:\\Users\\auzma\\source\\repos\\StopNShop2\\StopNShop2\\StopNShop2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gilli\\Documents\\GitHub\\540group1projectfall2020\\StopNShop2\\StopNShop2.csproj",
+        "projectUniqueName": "C:\\Users\\auzma\\source\\repos\\StopNShop2\\StopNShop2\\StopNShop2.csproj",
         "projectName": "StopNShop2",
-        "projectPath": "C:\\Users\\gilli\\Documents\\GitHub\\540group1projectfall2020\\StopNShop2\\StopNShop2.csproj",
-        "packagesPath": "C:\\Users\\gilli\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gilli\\Documents\\GitHub\\540group1projectfall2020\\StopNShop2\\obj\\",
+        "projectPath": "C:\\Users\\auzma\\source\\repos\\StopNShop2\\StopNShop2\\StopNShop2.csproj",
+        "packagesPath": "C:\\Users\\auzma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\auzma\\source\\repos\\StopNShop2\\StopNShop2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\gilli\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\auzma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

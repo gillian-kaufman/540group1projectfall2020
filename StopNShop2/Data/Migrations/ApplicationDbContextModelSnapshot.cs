@@ -271,7 +271,7 @@ namespace StopNShop2.Data.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int?>("CategoryID")
+                    b.Property<int>("CategoryFK")
                         .HasColumnType("int");
 
                     b.Property<bool>("FreeShipping")
@@ -294,7 +294,7 @@ namespace StopNShop2.Data.Migrations
 
                     b.HasKey("ProductId");
 
-                    b.HasIndex("CategoryID");
+                    b.HasIndex("CategoryFK");
 
                     b.ToTable("Product");
                 });
@@ -399,7 +399,9 @@ namespace StopNShop2.Data.Migrations
                 {
                     b.HasOne("StopNShop2.Models.Category", "Category")
                         .WithMany()
-                        .HasForeignKey("CategoryID");
+                        .HasForeignKey("CategoryFK")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("StopNShop2.Models.ProductReview", b =>
